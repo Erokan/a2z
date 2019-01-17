@@ -27,9 +27,7 @@ function linkUret(link:string, linkSayisi:number) : string[] {
     return linkler;
 }
 
-
-
 var indir = linkTemizle(link);
-
 var final = linkUret(indir,linkSayisi);
 console.log(final)
+
