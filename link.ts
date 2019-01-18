@@ -30,5 +30,4 @@ function linkUret(link:string, linkSayisi:number) : string[] {
 var indir = linkTemizle(link);
 var final = linkUret(indir,linkSayisi);
 console.log(final)
-console.log("final");
 
